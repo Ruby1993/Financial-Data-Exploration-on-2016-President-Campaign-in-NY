@@ -11,25 +11,23 @@ December 05,2017
 
 ## Introduction
 
-This is the data exploration on 2016 US presidential campagin finance 
-contribution in New York state. The dataset is avaliable at 
-http://classic.fec.gov/disclosurep/pnational.do, which includes the financial 
-information disclosed by each presidential candidiate for their campaign and 
-all the individual donations that were over $100,000.
+This is the data exploration on 2016 US presidential campaign 
+finance contribution in New York state. The dataset is available at 
+http://classic.fec.gov/disclosurep/pnational.do, which includes the 
+financial information disclosed by each presidential candidates for 
+their campaign and all the individual donations that were over $100,000.
 
-In 2016 president campaign, the result unexpectedly bring Trump into White House, 
-and Hilary again missed the chance tobe the first female president is US. 
-When people naturally assumed they would see a female president next morning, 
-this reversal astonished Americans without clues. So, what if we have the 
-financial campaign data? What can we get from the dataset?So, I will explore the 
-nature of campaign contributions and see if there are any interesting 
-relationships in the data, such as: 
-- Which party and candidates got the most support?
-- What's the difference between different parties' supporters?
-- How's the donations distributed geographically?
-- Is there any model that we could build that is related to their finance contribution?
-
-Let's we load the data and certain packages.
+In 2016 presidential campaign, the result unexpectedly brings Trump 
+into White House, and Hilary missed the chance to be the first female
+president in the US. When people naturally assumed they would see a 
+female president next morning, this reversal astonished Americans without 
+clues. So, what if we have the financial campaign data? What can we get 
+from the dataset? I will explore the nature of campaign contributions and 
+see if there are any interesting relationships in the data, such as:
+- Which party and candidates got the most support? 
+- What's the difference between different parties' supporters? 
+- How are the donations distributed spatially? 
+- Is there any model that we could build and bring some predictions?
 
 ```{r message=FALSE, warning=FALSE, packages}
 # Load all of the packages that you end up using in your analysis in this code
