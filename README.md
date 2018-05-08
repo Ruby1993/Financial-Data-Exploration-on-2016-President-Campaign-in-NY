@@ -1,6 +1,5 @@
 # Financial-Data-Exploration-on-2016-President-Campaign-in-NY
 ======================================================================
-
 by RUI ZHANG December 05,2017
 
 Introduction
@@ -59,8 +58,6 @@ Although different parties have different supporters, they do have specific char
 
 Reflection
 ----------
-
-> **Tip**: Reflect on the exploration you performed and the insights you found. What were some of the struggles that you went through? What went well? What was surprising? Make sure you include an insight into future work that could be done with the dataset.
 
 In this project, I was determined and designed to identify what's the reason behind the donations amount, and what's the difference between the different parties supporters. The most correlated feature with the contribution were party, gender, median rent, income per capita, and the date of the donations. For the difference between different parties' supporters, if a male tend to donate more than average who lives in the region with lower income and lower rent, he is more probably a republican supporter.
 
